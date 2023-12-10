@@ -1,0 +1,16 @@
+Задача №2:
+
+-- create
+CREATE TABLE GROUPMATES (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    age TEXT NOT NULL,
+    address TEXT NOT NULL
+    );
+
+-- insert
+INSERT INTO GROUPMATES VALUES (001, 'Кузя', '31', 'Ижевск');
+INSERT INTO GROUPMATES VALUES (002, 'Боби', '21', 'Москва');
+INSERT INTO GROUPMATES VALUES (003, 'Синди', '18', 'Санкт-Петербург');
+INSERT INTO GROUPMATES VALUES (004, 'Роза', '44', 'Пермь');
+INSERT INTO GROUPMATES VALUES (005, 'Илья', '37', 'Москва');
